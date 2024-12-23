@@ -1,0 +1,12 @@
+age=21
+money=200.5
+word='fuck'
+true=True 
+print(age)
+print(money)
+print(word)
+print(true)
+print(type(age))
+print(type(money))
+print(type(word))
+print(type(true))
