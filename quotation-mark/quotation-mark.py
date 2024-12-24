@@ -1,0 +1,11 @@
+nameValue='cdsa'
+print(nameValue)
+nameValue="sfr"
+print(nameValue)
+nameValue="""
+wfrnjfwnkn
+ewfnjknf
+fenk"""
+print(nameValue)
+nameValue="\"\"\"'sfr"
+print(nameValue)
