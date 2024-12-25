@@ -1,0 +1,9 @@
+list1=["hi","myname","Ricardo"]
+print(list1)
+print(type(list1))
+list2=["name:Ricardo",19,True]
+print(list2)
+print(type(list2))
+nestList=[["Ricardo",19,180],["tx",1,150]]
+print(nestList)
+print(type(nestList))

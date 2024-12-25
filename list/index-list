@@ -1,0 +1,4 @@
+list1=[["tim","tx","wjj"],[150,190,180]]
+for i in range(2):
+    for j in range(3):
+        print(list1[i][j])
