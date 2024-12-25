@@ -1,0 +1,8 @@
+for i in range(5): # this will print 01234
+    print(i)
+print("-----")
+for i in range(5,10): # this will 5 6789
+    print(i)
+print("-----")
+for i in range(5,10,2):#each print will between 2 will show  5 7 9
+    print(i)
