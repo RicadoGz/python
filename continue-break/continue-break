@@ -1,0 +1,18 @@
+import random
+allMoney=50000
+#randome number between 1 -10
+
+basicSalary=1000
+numberOfStuff=20
+for i in range(numberOfStuff):
+    salaryArguement=random.randint(1,10)
+    if(allMoney>0):
+        if(salaryArguement<5):
+            print("this staff  %d salary argument less than 5 not give salary, all money still have %d"%(i,allMoney))
+            continue
+        else:
+            allMoney-=basicSalary*salaryArguement
+            print("this staff is  %d give salary %d , all money still have %d"%(i,basicSalary*salaryArguement,allMoney))
+    else:
+        print("no money,other stall salary is 0")
+
