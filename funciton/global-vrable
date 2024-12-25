@@ -1,0 +1,25 @@
+# 全局变量
+counter = 0
+
+def increment(counter):  # 声明使用全局变量 counter
+    counter += 1  # 修改全局变量的值
+
+def reset():
+    global counter  # 声明使用全局变量 counter
+    counter = -999  # 将全局变量重置为 0
+
+# 调用函数前
+print("Before increment:", counter)  # 输出: 0
+
+# 调用 increment 函数
+increment(counter)
+print("After increment:", counter)  
+# 再次调用 increment
+increment(counter)
+print("After another increment:", counter)  
+
+# 调用 reset 函数
+reset()
+print("After reset:", counter)  # 输出: 0
+
+

@@ -1,0 +1,10 @@
+name="eskjfjnesfefksj"
+str1="eskesfefksj"
+
+def len(name):
+    lenName=0
+    for i in name:
+        lenName+=1
+    print("the string %s length is %d"%(name,lenName))
+len(name)
+len(str1)
